@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "resource_group1" {
   location = "West Europe"
 }
 resource "azurerm_resource_group" "resource_group2" {
-  name     = "durgesh3"
+  name     = "durgesh5"
   location = "West Europe"
 }
 resource "azurerm_storage_account" "sa1" {
