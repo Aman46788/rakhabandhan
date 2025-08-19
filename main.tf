@@ -2,7 +2,10 @@ resource "azurerm_resource_group" "resource_group1" {
   name     = "durgesh1"
   location = "West Europe"
 }
-
+resource "azurerm_resource_group" "resource_group2" {
+  name     = "durgesh5"
+  location = "West Europe"
+}
 resource "azurerm_storage_account" "sa1" {
   name                     = "durgeshkitijori1"
   resource_group_name      = azurerm_resource_group.resource_group1.name
